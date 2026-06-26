@@ -316,7 +316,7 @@ GitHub:
 https://github.com/Nishakumari-18
 
 LinkedIn:
-YOUR_LINKEDIN_URL
+https://www.linkedin.com/in/nishakumari42/
 
 Portfolio:
 https://nisha-kumari-portfolio.vercel.app
