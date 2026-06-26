@@ -1,0 +1,6 @@
+{
+  "name": "Nisha Kumari Portfolio",
+  "description": "Interactive full-stack developer portfolio for Nisha Kumari, featuring MERN stack experience, direct email, resume downloads, and a personalized Gemini AI chat assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
