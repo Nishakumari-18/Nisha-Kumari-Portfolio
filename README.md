@@ -1,100 +1,219 @@
-# 👋 Hi, I'm Nisha Kumari
+# 🚀 Nisha Kumari | AI-Powered Developer Portfolio
 
-### Full Stack Developer | AI Enthusiast | B.Tech Computer Science Student
+<div align="center">
 
-A passionate developer who enjoys building modern web applications, solving real-world problems, and continuously learning new technologies.
+### 🌐 Live Portfolio
 
-🌐 **Live Portfolio:** https://nisha-kumari-portfolio.vercel.app
+**https://nisha-kumari-portfolio.vercel.app**
 
----
+A modern, responsive, AI-powered portfolio built with **React, TypeScript, Tailwind CSS, Vite, Express.js, and Google Gemini AI**.
 
-## 🚀 About This Portfolio
-
-This portfolio showcases my:
-
-* 💼 Featured Projects
-* 🛠 Technical Skills
-* 💻 Development Experience
-* 📊 GitHub Activity
-* 📄 Resume
-* 📬 Contact Information
-
-It is designed with a modern UI, responsive layout, and smooth user experience.
+Designed to showcase my projects, technical skills, achievements, and provide an intelligent AI assistant capable of answering questions about my professional profile.
 
 ---
 
-## ✨ Features
+### 🔗 Connect With Me
 
-* Responsive Design
-* Modern Dark UI
-* Interactive Hero Section
-* Project Showcase
-* Skills Section
-* Experience Timeline
-* GitHub Contribution Graph
-* Resume Download
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-7C3AED?style=for-the-badge)](https://nisha-kumari-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge\&logo=linkedin)](YOUR_LINKEDIN_URL)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge\&logo=github)](https://github.com/Nishakumari-18)
+
+</div>
+
+---
+
+# 📌 Overview
+
+This portfolio is more than a personal website.
+
+It combines a beautiful modern UI with an AI-powered chatbot that can answer questions about my experience, skills, education, certifications, and projects using Google's Gemini AI.
+
+The project demonstrates both frontend and backend development skills while following a production-ready deployment architecture.
+
+---
+
+# ✨ Features
+
+## 👩 About Me
+
+* Professional introduction
+* Career summary
+* Resume download
+
+---
+
+## 💼 Experience
+
+* Timeline-based experience section
+* Internship details
+* Professional journey
+
+---
+
+## 🚀 Projects Showcase
+
+* Detailed project cards
+* Technology stack
+* GitHub links
+* Live demo links
+* Responsive project gallery
+
+---
+
+## 🧠 AI Portfolio Butler
+
+An intelligent chatbot capable of answering questions about:
+
+* Education
+* Technical Skills
+* Projects
+* Experience
+* Certifications
+* Contact Information
+
+Powered by **Google Gemini AI**
+
+---
+
+## 📈 Live Coding Activity
+
+Integrated LeetCode activity section displaying:
+
+* Recent submissions
+* Coding consistency
+* Competitive programming profile
+
+---
+
+## 📞 Contact Section
+
 * Contact Form
-* Fast Loading
-* Mobile Friendly
+* Email Integration
+* LinkedIn
+* GitHub
+* Resume Download
 
 ---
 
-## 🛠 Tech Stack
+## 📱 Responsive Design
 
-### Frontend
+Optimized for
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
 
 * React
 * TypeScript
 * Vite
 * Tailwind CSS
-* HTML5
-* CSS3
+* Motion
+* Lucide React
 
-### Backend
+---
+
+## Backend
 
 * Node.js
 * Express.js
+* TypeScript
+* Google Gemini AI
+* REST API
 
-### Tools
+---
+
+## Deployment
+
+### Frontend
+
+* Vercel
+
+### Backend
+
+* Render
+
+---
+
+## Version Control
 
 * Git
 * GitHub
-* Vercel
-* VS Code
 
 ---
 
-## 📂 Featured Projects
-
-### 🚀 CareerForge AI
-
-AI-powered career platform featuring resume analysis, ATS scoring, interview preparation, and personalized career guidance.
-
-### 🌊 AquaZone
-
-A complete water park booking platform with ticket reservation, QR-based entry, and responsive dashboard.
-
-### 🎬 Movie AI
-
-AI-powered movie recommendation platform with a modern cinematic interface and personalized suggestions.
-
----
-
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```
-src
-├── assets
-├── components
-├── App.tsx
-├── data.ts
-├── index.css
-└── main.tsx
+Portfolio
+│
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── backend/
+│   ├── server.ts
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── .env.example
+│
+├── package.json
+├── vite.config.ts
+└── README.md
 ```
 
 ---
 
-# ⚙️ Installation
+# 🤖 AI Chatbot
+
+The chatbot communicates with a custom Express backend that securely integrates Google's Gemini AI.
+
+### Features
+
+* Context-aware conversations
+* Portfolio-based responses
+* Session chat history
+* Typing indicator
+* Error handling
+* Responsive interface
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home
+
+> Add homepage screenshot here
+
+---
+
+## 🤖 AI Chatbot
+
+> Add chatbot screenshot here
+
+---
+
+## 🚀 Projects
+
+> Add projects screenshot here
+
+---
+
+## 📱 Mobile View
+
+> Add mobile screenshot here
+
+---
+
+# ⚙ Installation
 
 Clone the repository
 
@@ -102,108 +221,120 @@ Clone the repository
 git clone https://github.com/Nishakumari-18/Nisha-Kumari-Portfolio.git
 ```
 
-Move into the project
+Navigate into the project
 
 ```bash
 cd Nisha-Kumari-Portfolio
 ```
 
-Install dependencies
+Install frontend dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server
+Run frontend
 
 ```bash
 npm run dev
 ```
 
-Open your browser
-
-```
-http://localhost:3000
-```
-
----
-
-## 🏗 Build for Production
+Run backend
 
 ```bash
-npm run build
-```
+cd backend
 
-Preview the production build
+npm install
 
-```bash
-npm run preview
-```
-
----
-
-## 📸 Preview
-
-Add screenshots of your portfolio here.
-
-```
-screenshots/
-├── home.png
-├── projects.png
-├── skills.png
-└── contact.png
+npm run dev
 ```
 
 ---
 
-## 📈 Future Improvements
+# 🔐 Environment Variables
 
+## Frontend (.env)
+
+```env
+VITE_API_URL=https://your-render-backend.onrender.com
+```
+
+---
+
+## Backend (.env)
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+ALLOWED_ORIGIN=https://your-vercel-domain.vercel.app
+PORT=10000
+```
+
+---
+
+# 🚀 Deployment
+
+Frontend
+
+* Vercel
+
+Backend
+
+* Render
+
+Both services communicate securely using environment variables and CORS configuration.
+
+---
+
+# 🌟 Future Improvements
+
+* Voice-enabled AI Assistant
+* Dark/Light Theme Toggle
 * Blog Section
-* Visitor Analytics
-* Dark / Light Theme
-* Email Integration
-* More AI Projects
-* Internationalization
+* Visitor Analytics Dashboard
+* Project Filtering
+* AI Resume Review
+* Multi-language Support
+* Admin Dashboard
 
 ---
 
-## 👩‍💻 About Me
+# 👩‍💻 About Me
 
-I enjoy creating scalable web applications using modern technologies.
+Hi, I'm **Nisha Kumari**, a passionate Full Stack Developer and AI enthusiast with an interest in building intelligent, scalable, and user-focused web applications.
 
-Currently exploring:
-
-* Artificial Intelligence
-* Full Stack Development
-* Backend Engineering
-* Cloud Technologies
-* System Design
+I enjoy combining modern frontend technologies with AI-powered backend services to create engaging user experiences.
 
 ---
 
-## 📬 Connect With Me
+# 📫 Contact
 
-**Portfolio**
+📧 Email: [nishkumari18jsr@gmail.com](mailto:nishkumari18jsr@gmail.com)
 
-https://nisha-kumari-portfolio.vercel.app
+📍 Location: Noida / Jamshedpur, India
 
-**GitHub**
-
+GitHub:
 https://github.com/Nishakumari-18
 
-**LinkedIn**
+LinkedIn:
+YOUR_LINKEDIN_URL
 
-https://linkedin.com/in/nishakumari42
-
-**Email**
-
-[nishkumarii8jsr@gmail.com](mailto:nishkumarii8jsr@gmail.com)
+Portfolio:
+https://nisha-kumari-portfolio.vercel.app
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you found this project helpful, consider giving it a ⭐ on GitHub.
 
-It helps and motivates me to build more open-source projects.
+It helps others discover my work and motivates me to keep building amazing projects.
 
+---
+
+<div align="center">
+
+### Thank you for visiting my portfolio!
+
+Made with ❤️ using React, TypeScript, Express.js and Google Gemini AI
+
+</div>
