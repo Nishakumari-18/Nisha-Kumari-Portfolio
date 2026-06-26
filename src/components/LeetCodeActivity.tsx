@@ -6,6 +6,10 @@ import {
   ChevronRight, BarChart3, Flame
 } from 'lucide-react';
 
+// In production (Vercel), set VITE_API_URL to your Render backend URL.
+// In local dev, leave it unset — the Vite proxy forwards /api/* to localhost:3000.
+const API_BASE = (import.meta.env.VITE_API_URL as string | undefined) ?? '';
+
 // ─── Types ───────────────────────────────────────────────────────────────────
 interface DifficultyCount {
   difficulty: 'All' | 'Easy' | 'Medium' | 'Hard';
@@ -229,7 +233,7 @@ export default function LeetCodeActivity() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/leetcode/${LEETCODE_USERNAME}`);
+      const res = await fetch(`${API_BASE}/api/leetcode/${LEETCODE_USERNAME}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
 

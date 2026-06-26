@@ -2,6 +2,10 @@ import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { MessageCircle, X, Send, Bot, User, Loader2 } from 'lucide-react';
 
+// In production (Vercel), set VITE_API_URL to your Render backend URL.
+// In local dev, leave it unset — the Vite proxy forwards /api/* to localhost:3000.
+const API_BASE = (import.meta.env.VITE_API_URL as string | undefined) ?? '';
+
 interface ChatMessage {
   role: 'user' | 'assistant';
   content: string;
@@ -43,7 +47,7 @@ export default function ChatbotWidget() {
         content: msg.content
       }));
 
-      const response = await fetch('/api/chat', {
+      const response = await fetch(`${API_BASE}/api/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
